@@ -4,6 +4,14 @@ body {
     font-family: Open Sans, sans-serif;
 }
 
+h1 {
+    font-weight: 800;
+    text-align: center;
+    margin: -4px 0;
+}
+
+p
+
 .label  {
     border: 2px solid white;
     width: 270px;
