@@ -27,6 +27,15 @@ header p {
     margin: 2px 0;
 }
 
+.large {
+    height: 10px;
+}
+
+.large, .medium {
+    background-color: white;
+    border: 0;
+}
+
 .bold {
     font-weight: 800;
 }
