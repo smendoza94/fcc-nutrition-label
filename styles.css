@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
 body {
     background: #1d1d1b;
     color: antiquewhite;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -9,7 +16,13 @@ h1 {
     margin: -4px 0;
 }
 
-header p {
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px
+}
+
+p {
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -38,6 +51,16 @@ header p {
 
 .bold {
     font-weight: 800;
+}
+
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.calories-info h2 {
+    margin: 0;
 }
 
 .small-text {
