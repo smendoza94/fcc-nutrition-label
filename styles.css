@@ -61,6 +61,14 @@ p {
     font-weight: 800;
 }
 
+.indent {
+    margin-left: 1em;
+}
+
+.small-text {
+    font-size: 0.85rem;
+}
+
 .calories-info {
     display: flex;
     justify-content: space-between;
@@ -71,8 +79,11 @@ p {
     margin: 0;
 }
 
-.small-text {
-    font-size: 0.85rem;
+
+.calories-info span {
+    font-size: 2.4em;
+    font-weight: 700;
+    margin: -7px -2px;
 }
 
 .left-container p {
@@ -81,8 +92,6 @@ p {
     font-weight: 700;
 }
 
-.calories-info span {
-    font-size: 2.4em;
-    font-weight: 700;
-    margin: -7px -2px;
+.daily-value p {
+    border-bottom: 1px solid white;
 }
