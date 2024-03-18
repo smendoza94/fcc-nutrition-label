@@ -49,6 +49,14 @@ p {
     border: 0;
 }
 
+.medium {
+    height: 5px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
 .bold {
     font-weight: 800;
 }
