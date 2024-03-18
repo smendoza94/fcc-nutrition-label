@@ -65,6 +65,10 @@ p {
     margin-left: 1em;
 }
 
+.double-indent {
+    margin-left: 2em;
+}
+
 .small-text {
     font-size: 0.85rem;
 }
